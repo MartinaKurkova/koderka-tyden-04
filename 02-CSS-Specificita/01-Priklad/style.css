@@ -8,3 +8,18 @@ body {
 
 /* ---------------------------- */
 
+h1 {
+	color: red;
+}
+
+.nadpis {
+	color: blue;
+}
+
+* {
+	color: black;
+}
+
+# {
+	color: pink;
+}
