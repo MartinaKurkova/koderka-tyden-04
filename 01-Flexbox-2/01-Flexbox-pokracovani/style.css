@@ -17,8 +17,12 @@
     padding: 10px;
     border: 1px dashed red;
     background-color: #ffffcc;
+    display: flex;
+    flex-wrap: wrap;
 }
 
-/* ---------------------------------------------------- */
-
-
+.ctverecek {
+    flex-basis: 30%;
+    flex-shrink: 0;
+    flex-grow: 1;
+}

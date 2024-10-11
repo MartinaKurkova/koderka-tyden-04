@@ -16,4 +16,32 @@ body {
 
 /* ---------------------------------------------------- */
 
+.kontejner {
+  display: flex;
+}
 
+.pravy {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 50%;
+  flex-grow: 0;
+}
+
+.levy {
+  flex-basis: 50%;
+  flex-grow: 0;
+}
+
+.blok {
+  flex-grow: 1;
+}
+
+.horni {
+  flex-basis: 50%;
+  flex-grow: 1;
+}
+
+.dolni {
+  flex-basis: 50%;
+  flex-grow: 1;
+}
